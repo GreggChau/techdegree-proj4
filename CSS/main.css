@@ -1,0 +1,46 @@
+*, *:before, *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.gallery {
+  width: 100%;
+  display: table;
+}
+
+
+.photos-image-link {
+  display: inline-block;
+  width: 21%;
+  border: none;
+  margin: 20px 2%;
+}
+
+img {
+  display: inline-block;
+  padding: none;
+  border: none;
+  width: 100%;
+}
+
+.search {
+  display: block;
+  font-size: 16px;
+  padding: 16px 16px;
+  width: 50%;
+  margin: 20px auto;
+  border-radius: 5px;
+  border: 1px solid #e8eeef;
+}
+
+input:focus {
+  border: 2px solid rgba(0, 0, 0, 0.5);
+  border-radius: 5px;
+  outline: none;
+}
